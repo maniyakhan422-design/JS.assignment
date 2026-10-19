@@ -35,7 +35,7 @@ if ( age >=0 && age <=12 ){
     console.log("Senior Citizen");
 }
 
-//Q5
+//Q6
 let color= prompt("enter a trafic light color:")
 if ( color === "red" ){
     console.log("Stop");
@@ -46,6 +46,17 @@ if ( color === "red" ){
 }else{
     console.log("Invalid color");
 }
+//5
+ let units = prompt("Enter electricity units:")
+ let bill = 0;
+if (units <= 100) {
+  console.log(bill = units * 10);
+} else if (units <= 200) {
+  console.log(bill = (100 * 10) + (units - 100) * 15);
+} else {
+  console.log(bill = (100 * 10) + (100 * 15) + (units - 200) * 20);
+}
+
 
 //Q7
 let Money = prompt("Enter your Pocket Money:")

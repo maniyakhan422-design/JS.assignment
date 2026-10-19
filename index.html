@@ -49,7 +49,18 @@ if ( age >=0 && age <=12 ){
 } else{
     console.log("Senior Citizen");
 }</p><br>
-<p> Q6.Traffic Light Take a traffic light color as input. 
+<p>Q5.Electricity Bill Calculator Take the number of electricity units consumed and calculate the bill using these rates: - First 100 units: Rs. 10 per unit - Next 100 units: Rs. 15 per unit - Above 200 units: Rs. 20 per unit Calculate the bill using cumulative rates. For example, the first 100 units are charged at Rs. 10 each, 
+    and only the units above 100 are charged at the next rate</p><br>
+    <p>Ans.let units = prompt("Enter electricity units:")
+ let bill = 0;
+if (units <= 100) {
+  console.log(bill = units * 10);
+} else if (units <= 200) {
+  console.log(bill = (100 * 10) + (units - 100) * 15);
+} else {
+  console.log(bill = (100 * 10) + (100 * 15) + (units - 200) * 20);
+}</p><br>
+p> Q6.Traffic Light Take a traffic light color as input. 
     - Red: "Stop" - Yellow: "Ready" - 
     Green: "Go" - Any other color: "Invalid Color"</p><br>
     <p>Ans.let color= prompt("enter a trafic light color:")
